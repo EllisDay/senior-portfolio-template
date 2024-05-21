@@ -99,17 +99,18 @@
 }
 
 .project-inner-container {
-    width: 494px;
-    height: 300px;
+    width: 485px;
+    height: 290px;
     display:flex;
-    border-radius: 10px;
+    border-radius: 5px;
     justify-content: center;
     align-items: center;
 }
 
 .project-img {
-    width: 300px;
-    height: 195px;
+    width: 465px;
+    height: 275px;
+    border-radius: 5px;
     transition: transform 0.3s ease-in-out; /* Adding a smooth transition effect */
     cursor: pointer; /* Changing cursor to a hand */
 }
