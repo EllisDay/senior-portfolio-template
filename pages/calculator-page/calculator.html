@@ -61,6 +61,34 @@
       
     </div>
 
+    <div class="section">
+      <p class="section-title">The Process</p>
+
+      <p class="section-body">
+        The arithmetic section was very easy. I just used each operator (+, i, *, /) to do basic calculations. 
+      </p>
+      <br> </br>
+      <p class="section-body">
+        The statistics section was somewhat different, but still fairly straightforward. 
+        The main concept here is called a geometric distribution. 
+        When given the probability of an event being successful, and the attempt number on which you want your first success to happen, 
+        the distribution will tell you the probability of being successful on that specific attempt. 
+        For example, it could tell you the possibility of rolling snake eyes on your 15th roll of the dice (There's about a 1.8% chance). 
+      </p>
+      <br> </br>
+      <p class="section-body">
+        The graphing part, however, was the hardest. I had to come up with a way to draw functions without it breaking my computer. 
+        After a lot of thinking, the idea I settled on was to simply draw lines. 
+        I made it so the curve of a function is made by 20000 tiny lines, that together, look like a smooth curve. 
+        Each line starts at an x-value set by an increasing loop, and a y-value dictated by the user's function. The line ends at the result of the same process incremented by a few pixels to the right. 
+        This process if repeated until the graph is complete, and it surprisingly didn't destroy my computer. 
+        I actually really enjoyed the whole process, but I must admit that I got pretty mad when I remembered that pygame graphs have their origins in the top left corner, as opposed to most coordinate planes which have it at the center. 
+        Because of this issue, I get errors with a lot of negative coefficient functions, which I'll have to find a solution for. 
+        Otherwise, the workaround is to subtract each coordinate from the value 20000 in order to convert from Cartesian coordinate to pygame coordinate, which works in most scenarios. 
+      </p>
+      
+    </div>
+
 
     <div class="section">
       <p class="section-title">Next Steps</p>
